@@ -3,7 +3,7 @@ package com.github.gpluscb.boolean_expression;
 import java.util.Objects;
 
 public class NegateBooleanExpression implements BooleanExpression {
-    private BooleanExpression expr;
+    private final BooleanExpression expr;
 
     public NegateBooleanExpression(BooleanExpression expr) {
         this.expr = Objects.requireNonNull(expr);

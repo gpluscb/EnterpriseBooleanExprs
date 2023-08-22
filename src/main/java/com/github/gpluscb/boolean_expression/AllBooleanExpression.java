@@ -5,7 +5,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class AllBooleanExpression implements BooleanExpression {
-    private Stream<BooleanExpression> exprs;
+    private final Stream<BooleanExpression> exprs;
 
     public AllBooleanExpression(List<BooleanExpression> exprs) {
         this.exprs = Objects.requireNonNull(exprs).stream();

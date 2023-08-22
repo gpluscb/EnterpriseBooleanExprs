@@ -1,7 +1,7 @@
 package com.github.gpluscb.boolean_expression;
 
 public class AtomBooleanExpression implements BooleanExpression {
-    private boolean value;
+    private final boolean value;
 
     public AtomBooleanExpression(boolean value) {
         this.value = value;

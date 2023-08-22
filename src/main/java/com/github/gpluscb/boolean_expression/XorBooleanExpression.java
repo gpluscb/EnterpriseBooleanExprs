@@ -3,8 +3,8 @@ package com.github.gpluscb.boolean_expression;
 import java.util.Objects;
 
 public class XorBooleanExpression implements BooleanExpression {
-    private BooleanExpression l;
-    private BooleanExpression r;
+    private final BooleanExpression l;
+    private final BooleanExpression r;
 
     public XorBooleanExpression(BooleanExpression l, BooleanExpression r) {
         this.l = Objects.requireNonNull(l);

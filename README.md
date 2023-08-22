@@ -23,6 +23,7 @@ Much more production ready.
 # Why?
 
 I am procrastinating writing a job application.
+Someone had this idea in Discord.
 I also thought this would be funny.
 
 # Is this published for maven/gradle?
